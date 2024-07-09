@@ -1,8 +1,20 @@
 from datetime import datetime
 from django.db import models
 from django.utils import timezone
+from django.shortcuts import render
+
 
 # მოდელის შექმნა.
+
+# class Car(models.Model):
+#     name=models.CharField(max_length=1000) 
+#     def __str__(self) -> str:
+#         return self.name
+# class Trailers(models.Model):
+#     name=models.CharField(max_length=1000) 
+#     def __str__(self) -> str:
+#         return self.name
+
 class Department(models.Model):
     name = models.TextField() 
     description = models.TextField() 

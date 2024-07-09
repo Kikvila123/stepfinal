@@ -13,17 +13,17 @@
     <link rel="stylesheet" href="{% static 'employee_information/assets/default/css/style.css' %}">
     <link rel="stylesheet" href="{% static 'employee_information/assets/bootstrap/css/bootstrap.min.css' %}">
 
-    <!-- plugins:css -->
+    <!-- დანამატები:css -->
     <link rel="stylesheet" href="{% static 'employee_information/assets/material-admin/vendors/mdi/css/materialdesignicons.min.css' %}">
     <link rel="stylesheet" href="{% static 'employee_information/assets/material-admin/vendors/css/vendor.bundle.base.css' %}">
-    <!-- endinject -->
-    <!-- Plugin css for this page -->
+    <!-- დაბოლოება -->
+   <!-- css ამ გვერდისთვის -->
     <link rel="stylesheet" href="{% static 'employee_information/assets/material-admin/vendors/flag-icon-css/css/flag-icon.min.css' %}">
     <link rel="stylesheet" href="{% static 'employee_information/assets/material-admin/vendors/jvectormap/jquery-jvectormap.css' %}">
-    <!-- End plugin css for this page -->
-    <!-- Layout styles -->
+   <!-- დაასრულეთ მოდულის css ამ გვერდისთვის -->
+    <!-- სტილების განლაგება -->
     <link rel="stylesheet" href="{% static 'employee_information/assets/material-admin/css/demo/style.css' %}">
-    <!-- End layout styles -->
+    <!-- სტილების განლაგების დასრულება -->
     <link rel="shortcut icon" href="{% static 'employee_information/assets/material-admin/images/favicon.png' %}" />
     <script src="{% static 'employee_information/assets/default/js/jquery-3.6.0.min.js' %}">
     </script>
@@ -35,13 +35,13 @@
 <body>
     <script src="{% static 'employee_information/assets/material-admin/js/preloader.js ' %}"></script>
     <div class="body-wrapper">
-        <!-- Aside -->
+        
         {% block navigation %} {% include "employee_information/navigation.html" %} {% endblock navigation %}
-        <!-- Aside -->
+        
         <div class="main-wrapper mdc-drawer-app-content">
-            <!-- Top Navigation -->
+            
             {% block TopNavigation %} {% include "employee_information/TopNavigation.html" %} {% endblock TopNavigation %}
-            <!-- Top Navigation -->
+            
             <div class="page-wrapper mdc-toolbar-fixed-adjust">
                 <main class="content-wrapper">
                     <div class="mdc-layout-grid">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </main>
-                <!-- partial:partials/_footer.html -->
+                <!--footer.html -->
                 <footer>
                     <div class="mdc-layout-grid">
                         <div class="mdc-layout-grid__inner">
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </footer>
-                <!-- partial -->
+              
             </div>
         </div>
     </div>
